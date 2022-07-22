@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": -62.2643,
+    "lat": -38.7409
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 284.31,
+    "feels_like": 283.15,
+    "temp_min": 284.31,
+    "temp_max": 284.31,
+    "pressure": 1006,
+    "humidity": 64,
+    "sea_level": 1006,
+    "grnd_level": 1004
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.99,
+    "deg": 5,
+    "gust": 13.85
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1657115768,
+  "sys": {
+    "country": "AR",
+    "sunrise": 1657106825,
+    "sunset": 1657141209
+  },
+  "timezone": -10800,
+  "id": 3865086,
+  "name": "Misiones",
+  "cod": 200
+}
