@@ -6,10 +6,7 @@ const Div = styled.div`
   position: absolute;
   justify-content: center;
   align-items: center;
-
-  @media screen and (max-width: 720px) {
-    margin: 20rem 5rem 0;
-  }
+  margin-top: 40rem;
 `
 
 const Span = styled.span`
@@ -18,6 +15,7 @@ const Span = styled.span`
   text-align: center;
   font-weight: 400;
   opacity: 1;
+  
 `;
 
 const Img = styled.img`
