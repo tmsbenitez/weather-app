@@ -4,11 +4,12 @@ import styled from "styled-components";
 const Div = styled.div`
   display: flex;
   position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 720px) {
+    margin: 20rem 5rem 0;
+  }
 `
 
 const Span = styled.span`
@@ -30,7 +31,7 @@ const Img = styled.img`
 const Landing = () => {
   return (
     <Div>
-      <Span>Please, search for a location.</Span>;
+      <Span>Please, search for a location.</Span>
       <Img src="/img/weather.png" alt="weather-app-logo" className="logo" />
     </Div>
   );
