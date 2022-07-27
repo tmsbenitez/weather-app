@@ -1,6 +1,8 @@
 # 🌥 Weather App.
 
-![Weather App](./github/weather-app.png)
+![Weather App](./public/github/weather-app.png)
+
+[Live Demo](https://weather-app-omega-lilac.vercel.app).
 
 A weather application with React.js and [OpenWeatherAPI](https://openweathermap.org).
 
