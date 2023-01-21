@@ -10,12 +10,11 @@ const Div = styled.div`
 `
 
 const Span = styled.span`
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-weight: 400;
   opacity: 1;
-  
 `;
 
 const Img = styled.img`

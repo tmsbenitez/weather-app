@@ -58,26 +58,24 @@ function App() {
 				</div>
 			</header>
 			<div className="main">
-				<section className="temp">
-					{data.main ? (
-						<Card
-							name={data.name}
-							country={data.sys.country}
-							temp={data.main.temp}
-							description={data.weather[0].description}
-							icon={data.weather[0].icon}
-							speed={data.wind.speed}
-							humidity={data.main.humidity}
-							pressure={data.main.pressure}
-							deg={data.wind.deg}
-							lat={data.coord.lat}
-							lon={data.coord.lon}
-							tempMin={data.main.temp_min}
-							tempMax={data.main.temp_max}
-							feelsLike={data.main.feels_like}
-						/>
-					) : null}
-				</section>
+				{data.main ? (
+					<Card
+						name={data.name}
+						country={data.sys.country}
+						temp={data.main.temp}
+						description={data.weather[0].description}
+						icon={data.weather[0].icon}
+						speed={data.wind.speed}
+						humidity={data.main.humidity}
+						pressure={data.main.pressure}
+						deg={data.wind.deg}
+						lat={data.coord.lat}
+						lon={data.coord.lon}
+						tempMin={data.main.temp_min}
+						tempMax={data.main.temp_max}
+						feelsLike={data.main.feels_like}
+					/>
+				) : null}
 			</div>
 			<footer className="footer">
 				<div className="footer_social">
